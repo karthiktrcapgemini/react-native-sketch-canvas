@@ -1,13 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import ReactNative, {
-  View,
-  Text,
-  TouchableOpacity,
-  FlatList,
-  ViewPropTypes,
-} from 'react-native'
-import SketchCanvas from './src/SketchCanvas'
+import { View, Text, TouchableOpacity, FlatList } from "react-native";
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 import { requestPermissions } from './src/handlePermissions';
 
 export default class RNSketchCanvas extends React.Component {
